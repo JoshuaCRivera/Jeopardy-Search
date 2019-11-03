@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+
+        <title>Jeopardy Question Search</title>
+
+        <base href="."/>
+
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+      <h1>
+         <img src="jlogo.jpg"  width="500" height="200" class="center">
+       </h1>
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<style>
+
+body {
+    background-color: #060CE9;
+}
+</style>
+        <div class="searchList">
+            <input id="searchInput" type="text" name="category" placeholder="Search Category Name or ID Number">
+        </div>
+        <br> </br>
+
+        <div class="dateSearch">
+            <input id='startDateInput' type='date'>
+            <input id='endDateInput' type='date'>
+        </div>
+        <div class="valueSearch" >
+
+                    <select id='valueInput' type='text'>
+                      <option>Refine Search by Points(ex 100)</option>
+                      <option value='100'>100</option>
+                      <option value='200'>200</option>
+                      <option value='300'>300</option>
+                      <option value='400'>400</option>
+                      <option value='500'>500</option>
+                      <option value='600'>600</option>
+                      <option value='800'>800</option>
+                      <option value='1000'>1000</option>
+                    </select>
+      </div>
+
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <div id="searchResults"></div>
+
+        <script src="js/main.js"></script>
+        <script type="text/javascript"> updateContent();</script>
+
+    </body>
+</html>
