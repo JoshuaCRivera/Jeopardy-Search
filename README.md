@@ -15,7 +15,7 @@ To make a search there are 3 inputs (Category name, date and point value/difficu
 1. To search a category start typing the name of the category until the desired result is seen in the drop down bar and click it.
     * This should be the last task as selecting a category automatically searches result. 
 2. To refine search by date, either click on the day, month or year and then move it up or down with the arrows or click the drop arrow and search for the desired date.
-3. To refine by point values/difficulty, select the drop down bar and select one of the options
+3. To refine by point values/difficulty, select the drop down bar and select one of the options with the placeholder text containing the default without any point search
 
 * A category is required and must be last entered to make any search. Date and point values are both fully optional.
 
