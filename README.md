@@ -1,5 +1,5 @@
 
-# JoshuaCRivera.github.io - Jeapordy Question Search
+# Jeapordy Question Search
 -------------------
 by Joshua Rivera
 
@@ -23,5 +23,5 @@ To make a new search, change any date or point value parameters needed, then era
 
 # Where to find?
 ---------------
-* Deployment link: JoshuaCRivera.github.io
-* The host repoitory: https://github.com/JoshuaCRivera/JoshuaCRivera.github.io
+* Deployment link: https://joshuacrivera.github.io/Jeopardy-Search
+* The host repoitory: https://github.com/JoshuaCRivera/Jeopardy-Search
